@@ -32,8 +32,8 @@ for year in range(2015, 2025):
             if r.get("MM_TYPE") == "개인":
                 pass  # 실제 데이터 출력 없이 그냥 넘어감
 
-# ✅ 전체 결과 한 번만 출력
+# 전체 결과 한 번만 출력
 if success:
-    print("\n✅ 전체 기간 API 호출 성공!")
+    print("\n전체 기간 API 호출 성공!")
 else:
-    print("\n⚠️ 일부 데이터 호출 실패가 발생했습니다.")
+    print("\n일부 데이터 호출 실패가 발생했습니다.")
